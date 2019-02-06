@@ -1,0 +1,40 @@
+[package]
+name = "datadot"
+version = "0.1.0"
+authors = ["dsietz"]
+repository = "https://github.com/dsietz/datadot.git"
+documentation = "https://docs.rs/datadot/"
+readme = "README.md"
+license = "Apache-2.0"
+exclude = [
+    "examples/*",
+    "target/*",
+	"tests/*",
+	"benches/*",
+]
+
+
+[features]
+helper = []
+
+[lib]
+name = "dotlib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "datadot"
+path = "src/bin/datadot.rs"
+
+[[example]]
+name = "plugin_helloWorld"
+path = "examples/plugins/plugin_helloWorld.rs"
+crate-type = ["dylib"]
+
+[dependencies]
+socket2        = { version = "0.3.8", features = ["reuseport"] }
+lazy_static    = "1.2.0"
+clap           = "2.32.0"
+regex          = "1.1.0"
+dynamic_reload = "0.3.0"
+log            = "0.4.0"
+json           = "0.11.13"
