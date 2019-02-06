@@ -6,6 +6,7 @@ repository = "https://github.com/dsietz/datadot.git"
 documentation = "https://docs.rs/datadot/"
 readme = "README.md"
 license = "Apache-2.0"
+keywords = ["data", "multicasting", "dynamic", "plugins"]
 exclude = [
     "examples/*",
     "target/*",
