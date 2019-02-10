@@ -1,5 +1,16 @@
 ![DataDot](./img/datadot.png?raw=true) 
 
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Coverage Status](https://coveralls.io/repos/github/dsietz/datadot/badge.svg?branch=master)](https://coveralls.io/github/dsietz/datadot?branch=master)
+[![Docs.rs](https://docs.rs/datadot/badge.svg)](https://docs.rs/datadot)
+
+Linux: [![Build Status](https://travis-ci.org/dsietz/datadot.svg?branch=master)](https://travis-ci.org/dsietz/datadot)
+Windows: [![Build status](https://ci.appveyor.com/api/projects/status/klevb6aknr6tgohi/branch/master?svg=true)](https://ci.appveyor.com/project/dsietz/datadot/branch/master)
+
+
+---
+
+
 __Looking for a cluster of syncronized bot to do your work? Just spin up a colony of DataDots.__<br>
 
 __A Data Dot is a micro executable that acts on its specified data point that is defined at start up. Once started, a DataDot ...__

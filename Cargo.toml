@@ -14,6 +14,14 @@ exclude = [
 	"benches/*",
 ]
 
+[badges]
+travis-ci = { repository = "dsietz/datadot" }
+appveyor = { repository = "dsietz/datadot" }
+coveralls = { repostiory = "dsietz/datadot", branch = "master" }
+is-it-maintained-issue-resolution = { repository = "dsietz/datadot" }
+is-it-maintained-open-issues = { repository = "dsietz/datadot" }
+maintenance = {status = "experimental"}
+
 
 [features]
 helper = []
