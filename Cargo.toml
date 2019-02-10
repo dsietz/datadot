@@ -1,12 +1,13 @@
 [package]
 name = "datadot"
-version = "0.1.0"
+version = "0.0.1"
 authors = ["dsietz"]
 repository = "https://github.com/dsietz/datadot.git"
 documentation = "https://docs.rs/datadot/"
 readme = "README.md"
 license = "Apache-2.0"
 keywords = ["data", "multicasting", "dynamic", "plugins"]
+description = "A Data Dot is a micro executable that acts on its specified data point that is defined at start up, join a cluster, and interact with the colony."
 exclude = [
     "examples/*",
     "target/*",
