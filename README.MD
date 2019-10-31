@@ -11,9 +11,9 @@ Windows: [![Build status](https://ci.appveyor.com/api/projects/status/klevb6aknr
 ---
 
 
-__Looking for a cluster of syncronized bot to do your work? Just spin up a colony of DataDots.__<br>
+>Looking for a cluster of syncronized bots to do your work? Just spin up a colony of DataDots.
 
-__A Data Dot is a micro executable that acts on its specified data point that is defined at start up. Once started, a DataDot ...__
+**A Data Dot is a micro executable that acts on its specified data point that is defined at start up. Once started, a DataDot ...**
 
 - Interacts with the user on the command line
 - Collaboratively works together with other DataDots by speaking and listening
